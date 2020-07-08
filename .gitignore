@@ -8,3 +8,7 @@
 /captures
 /app/src/main/res/drawable
 .externalNativeBuild
+
+# Elementos que no son de mi autoria
+/app/src/main/assets/modsaes.js
+/app/src/main/res/drawable
