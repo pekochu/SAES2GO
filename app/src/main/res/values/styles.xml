@@ -1,0 +1,178 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AboutTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/aboutColorPrimary</item>
+        <item name="colorPrimaryDark">@color/aboutColorPrimaryDark</item>
+        <item name="colorAccent">@color/aboutColorAccent</item>
+        <item name="android:navigationBarColor">@color/aboutColorPrimaryDark</item>
+    </style>
+
+    <style name="HorarioOfflineTheme" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/offlineColorPrimary</item>
+        <item name="colorPrimaryDark">@color/offlineColorPrimaryDark</item>
+        <item name="colorAccent">@color/offlineColorAccent</item>
+        <item name="android:navigationBarColor">@color/offlineColorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.ActionBarTransparent">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.SplashScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/notification_bar_splash</item>
+    </style>
+
+    <style name="CustomShowcaseTheme3" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#e1009688</item>
+        <item name="sv_showcaseColor">#00796B</item>
+        <item name="sv_buttonText">¡Entendido!</item>
+        <item name="sv_tintButtonColor">true</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle</item>
+        <item name="sv_detailTextAppearance">@style/CustomText</item>
+    </style>
+
+    <style name="CustomShowcaseTheme2" parent="ShowcaseView.Light">
+        <item name="sv_backgroundColor">#e19E9E9E</item>
+        <item name="sv_showcaseColor">#424242</item>
+        <item name="sv_buttonText">¡Entendido!</item>
+        <item name="sv_tintButtonColor">true</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle</item>
+        <item name="sv_detailTextAppearance">@style/CustomText</item>
+    </style>
+
+    <style name="CustomTitle" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="CustomText" parent="TextAppearance.ShowcaseView.Detail.Light">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- CUSTOMS --> <!-- COLOR POLITÉCNICO -->
+    <style name="AppTheme_0" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_0</item>
+        <item name="colorPrimaryDark">@color/color_0_dark</item>
+        <item name="colorAccent">@color/color_0_accent</item>
+        <item name="android:navigationBarColor">@color/color_0_dark</item>
+    </style>
+    <!-- DEFAULT -->
+    <style name="AppTheme_1" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_1</item>
+        <item name="colorPrimaryDark">@color/color_1_dark</item>
+        <item name="colorAccent">@color/color_1_accent</item>
+        <item name="android:navigationBarColor">@color/color_1_dark</item>
+    </style>
+    <!-- ROSA -->
+    <style name="AppTheme_2" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_2</item>
+        <item name="colorPrimaryDark">@color/color_2_dark</item>
+        <item name="colorAccent">@color/color_2_accent</item>
+        <item name="android:navigationBarColor">@color/color_2_dark</item>
+    </style>
+    <!-- PURPLE -->
+    <style name="AppTheme_3" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_3</item>
+        <item name="colorPrimaryDark">@color/color_3_dark</item>
+        <item name="colorAccent">@color/color_3_accent</item>
+        <item name="android:navigationBarColor">@color/color_3_dark</item>
+    </style>
+    <!-- DEEP PURPLE -->
+    <style name="AppTheme_4" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_4</item>
+        <item name="colorPrimaryDark">@color/color_4_dark</item>
+        <item name="colorAccent">@color/color_4_accent</item>
+        <item name="android:navigationBarColor">@color/color_4_dark</item>
+    </style>
+    <!-- INDIGO -->
+    <style name="AppTheme_5" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_5</item>
+        <item name="colorPrimaryDark">@color/color_5_dark</item>
+        <item name="colorAccent">@color/color_5_accent</item>
+        <item name="android:navigationBarColor">@color/color_5_dark</item>
+    </style>
+    <!-- BLUE -->
+    <style name="AppTheme_6" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_6</item>
+        <item name="colorPrimaryDark">@color/color_6_dark</item>
+        <item name="colorAccent">@color/color_6_accent</item>
+        <item name="android:navigationBarColor">@color/color_6_dark</item>
+    </style>
+    <!-- LIGHT BLUE -->
+    <style name="AppTheme_7" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_7</item>
+        <item name="colorPrimaryDark">@color/color_7_dark</item>
+        <item name="colorAccent">@color/color_7_accent</item>
+        <item name="android:navigationBarColor">@color/color_7_dark</item>
+    </style>
+    <!-- CYAN -->
+    <style name="AppTheme_8" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_8</item>
+        <item name="colorPrimaryDark">@color/color_8_dark</item>
+        <item name="colorAccent">@color/color_8_accent</item>
+        <item name="android:navigationBarColor">@color/color_8_dark</item>
+    </style>
+    <!-- RED -->
+    <style name="AppTheme_9" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_9</item>
+        <item name="colorPrimaryDark">@color/color_9_dark</item>
+        <item name="colorAccent">@color/color_9_accent</item>
+        <item name="android:navigationBarColor">@color/color_9_dark</item>
+    </style>
+    <!-- GREEN -->
+    <style name="AppTheme_10" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_10</item>
+        <item name="colorPrimaryDark">@color/color_10_dark</item>
+        <item name="colorAccent">@color/color_10_accent</item>
+        <item name="android:navigationBarColor">@color/color_10_dark</item>
+    </style>
+    <!-- LIGHT GREEN -->
+    <style name="AppTheme_11" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_11</item>
+        <item name="colorPrimaryDark">@color/color_11_dark</item>
+        <item name="colorAccent">@color/color_11_accent</item>
+        <item name="android:navigationBarColor">@color/color_11_dark</item>
+    </style>
+    <!-- AMBER -->
+    <style name="AppTheme_12" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_12</item>
+        <item name="colorPrimaryDark">@color/color_12_dark</item>
+        <item name="colorAccent">@color/color_12_accent</item>
+        <item name="android:navigationBarColor">@color/color_12_dark</item>
+    </style>
+    <!-- Orange -->
+    <style name="AppTheme_13" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_13</item>
+        <item name="colorPrimaryDark">@color/color_13_dark</item>
+        <item name="colorAccent">@color/color_13_accent</item>
+        <item name="android:navigationBarColor">@color/color_13_dark</item>
+    </style>
+    <!-- Deep orange-->
+    <style name="AppTheme_14" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/color_14</item>
+        <item name="colorPrimaryDark">@color/color_14_dark</item>
+        <item name="colorAccent">@color/color_14_accent</item>
+        <item name="android:navigationBarColor">@color/color_14_dark</item>
+    </style>
+
+</resources>

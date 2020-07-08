@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameEscuela"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+
+    <ImageView
+        android:id="@+id/imagen_escuela"
+        android:contentDescription="@string/content_escuelas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nombre_escuela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/google_sans_medium"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>

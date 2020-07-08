@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xyz.luisnglbrv.sigma">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginSaes"
+            android:windowSoftInputMode="adjustResize"
+            android:label="@string/s_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgotPassword"
+            android:windowSoftInputMode="adjustResize"
+            android:label="@string/s_forgot"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EscuelaActivity"
+            android:label="@string/s_escuela"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SetearDatos"
+            android:label="@string/s_setdatos"
+            android:theme="@style/AppTheme.SplashScreen" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/s_about"
+            android:theme="@style/AboutTheme" />
+        <activity
+            android:name=".HorarioOffline"
+            android:label="@string/s_horario_offline"
+            android:theme="@style/HorarioOfflineTheme" />
+        <activity
+            android:name=".UpdatesActivity"
+            android:label="@string/s_actualizaciones"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavegadorActivity"
+            android:label="@string/s_navegador"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ModSaesActivity"
+            android:label="@string/s_modsaes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditarHorarioActivity"
+            android:label="@string/s_editar_horario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangeStyleActivity"
+            android:label="@string/s_change_style"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notif_saes2go_white" />
+
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".notify.HorarioService"
+            android:enabled="true"
+            android:process=":notify" />
+
+        <receiver android:name=".notify.MyHorarioReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

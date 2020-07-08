@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:id="@+id/change_Coordinator"
+    android:background="@color/background_default"
+    tools:context="xyz.luisnglbrv.sigma.ChangeStyleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/change_style_AppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/change_style_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_below="@id/change_style_AppBar"
+            android:layout_height="match_parent"
+            tools:context="xyz.luisnglbrv.sigma.AboutActivity"
+            android:background="@color/background_about">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/settings_vertical_margin"
+                android:paddingTop="@dimen/settings_vertical_margin">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_cards">
+                    <RelativeLayout
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:paddingBottom="@dimen/activity_vertical_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="@string/change_style_0"
+                            android:gravity="clip_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/google_sans_bold"
+                            android:id="@+id/text_cs_1"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                        <TextView
+                            android:text="@string/change_style_1"
+                            android:layout_below="@+id/text_cs_1"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:layout_alignParentLeft="true"
+                            android:textColor="@android:color/black"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:layout_alignParentStart="true"
+                            android:id="@+id/text_cs_2" />
+                        <Button
+                            android:text="@string/change_style_2"
+                            android:layout_width="match_parent"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black_de"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/text_cs_2"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="12dp"
+                            android:id="@+id/button_cs_1" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_cards"
+                    android:layout_marginTop="12dp"
+                    app:contentPaddingTop="16dp">
+                    <RelativeLayout
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:paddingBottom="@dimen/activity_vertical_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="@string/change_style_3"
+                            android:gravity="clip_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/google_sans_bold"
+                            android:id="@+id/text_cs_3"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                        <CheckBox
+                            android:text="@string/change_style_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/text_cs_3"
+                            android:layout_marginTop="12dp"
+                            android:id="@+id/check_cs_1" />
+                        <Button
+                            android:text="@string/change_style_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black_de"
+                            android:layout_below="@+id/check_cs_1"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="12dp"
+                            android:id="@+id/button_cs_2" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_cards"
+                    android:layout_marginTop="12dp"
+                    app:contentPaddingTop="16dp">
+                    <RelativeLayout
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:paddingBottom="@dimen/activity_vertical_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="@string/change_style_5"
+                            android:gravity="clip_horizontal"
+                            android:fontFamily="@font/google_sans_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/text_cs_4"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                        <CheckBox
+                            android:text="@string/change_style_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/text_cs_4"
+                            android:layout_marginTop="12dp"
+                            android:id="@+id/check_cs_2" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/background_cards"
+                    android:layout_marginTop="12dp"
+                    app:contentPaddingTop="16dp">
+                    <RelativeLayout
+                        android:paddingTop="@dimen/activity_vertical_margin"
+                        android:paddingBottom="@dimen/activity_vertical_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="@string/change_style_8"
+                            android:gravity="clip_horizontal"
+                            android:fontFamily="@font/google_sans_bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/text_cs_5"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+                        <TextView
+                            android:text="@string/change_style_9"
+                            android:layout_below="@+id/text_cs_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:layout_marginTop="12dp"
+                            android:layout_alignParentLeft="true"
+                            android:textColor="@android:color/black"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:layout_alignParentStart="true"
+                            android:id="@+id/text_cs_6" />
+                        <Button
+                            android:text="@string/change_style_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/black_de"
+                            android:layout_below="@+id/text_cs_6"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="12dp"
+                            android:id="@+id/button_cs_3" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

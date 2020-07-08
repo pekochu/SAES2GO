@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_medium"
+        android:paddingTop="12dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:id="@+id/ets_txtMateria"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@+id/ets_txtCalificacion"
+        android:layout_toLeftOf="@+id/ets_txtCalificacion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:paddingTop="12dp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:paddingBottom="8dp"
+        android:width="65dp"
+        android:gravity="center|center_vertical"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:textStyle="bold|normal"
+        android:id="@+id/ets_txtCalificacion"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textAlignment="gravity"
+        android:layout_alignBottom="@+id/ets_txtMateria" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:gravity="center|center_vertical"
+        android:textSize="12sp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="12dp"
+        android:textColor="#000"
+        android:id="@+id/ets_txtTurno"
+        android:textAlignment="gravity"
+        android:layout_below="@+id/ets_txtMateria"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:gravity="center|center_vertical"
+        android:textSize="12sp"
+        android:paddingBottom="12dp"
+        android:textColor="#000"
+        android:id="@+id/ets_txtPeriodo"
+        android:textAlignment="gravity"
+        android:layout_below="@+id/ets_txtMateria"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:gravity="center|center_vertical"
+        android:textSize="12sp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="12dp"
+        android:textColor="#000"
+        android:id="@+id/ets_txtTipo"
+        android:textAlignment="gravity"
+        android:layout_below="@+id/ets_txtMateria"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_1">
+        <item
+            android:id="@+id/nav_Inicio"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:fontFamily="@font/google_sans_regular"
+            android:title="@string/nav_1" />
+        <item
+            android:id="@+id/nav_Horario"
+            android:icon="@drawable/ic_schedule_black_24dp"
+            android:fontFamily="@font/google_sans_regular"
+            android:title="@string/nav_2" />
+        <item
+            android:id="@+id/nav_Kardex"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:fontFamily="@font/google_sans_regular"
+            android:title="@string/nav_3" />
+        <item
+            android:id="@+id/nav_Estadogen"
+            android:icon="@drawable/ic_find_in_page_black_24dp"
+            android:title="@string/nav_4" />
+        <item
+            android:id="@+id/nav_Cita"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="@string/nav_5" />
+        <item
+            android:id="@+id/nav_Ordinario"
+            android:icon="@drawable/ic_spellcheck_black_24dp"
+            android:title="@string/nav_6" />
+        <item
+            android:id="@+id/nav_ETS"
+            android:icon="@drawable/ic_looks_6_black_24dp"
+            android:title="@string/nav_7" />
+        <!-- Saberes previos disponible próximamente
+        <item
+            android:id="@+id/nav_Previos"
+            android:icon="@drawable/ic_offline_pin_black_24dp"
+            android:title="@string/nav_8" /> -->
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group_2">
+        <item
+            android:id="@+id/nav_Navegador"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:title="@string/nav_15" />
+        <item
+            android:id="@+id/nav_ModSaes"
+            android:icon="@drawable/ic_gamepad_black_24dp"
+            android:title="@string/nav_17" />
+        <item
+            android:id="@+id/nav_Recargar"
+            android:icon="@drawable/ic_update_black_24dp"
+            android:title="@string/nav_12" />
+        <item
+            android:id="@+id/nav_Cambiar"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="@string/nav_10" />
+        <item
+            android:id="@+id/nav_Cerrar"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/nav_11" />
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group_3">
+        <item
+            android:id="@+id/nav_Configuracion"
+            android:title="@string/nav_16" />
+    </group>
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/splashRelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:contentDescription="@string/content_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/splash"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+    <ImageView
+        android:contentDescription="@string/content_app"
+        android:layout_width="180dip"
+        android:layout_height="180dip"
+        app:srcCompat="@drawable/app"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/appIconView" />
+
+</RelativeLayout>

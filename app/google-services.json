@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "759568276324",
+    "firebase_url": "https://saes2go.firebaseio.com",
+    "project_id": "saes2go",
+    "storage_bucket": "saes2go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759568276324:android:c2ff5a35d318b330",
+        "android_client_info": {
+          "package_name": "xyz.luisnglbrv.sigma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759568276324-s2u305d0ptfs5uh4lg311hgg0h62oere.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.luisnglbrv.sigma",
+            "certificate_hash": "F1BCAF3F6E682AC81815AFCFA01C28DCE592D1EA"
+          }
+        },
+        {
+          "client_id": "759568276324-slomi32hr1n0fe4uqrubrp9mjifkal0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH7jVcksuBm0kY9n7TTIpF4vZeT4ubtjo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759568276324-slomi32hr1n0fe4uqrubrp9mjifkal0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

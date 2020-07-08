@@ -1,0 +1,247 @@
+<resources>
+    <!-- Nombre de la APP -->
+    <string name="app_name">SAES2GO</string>
+
+    <!-- String de color -->
+    <string name="background">#FAFAFA</string>
+    <string name="tab_UnselectedText">#B2DFDB</string> <!-- #dcb1b1 -->
+    <string name="tab_SelectedText">#FFFFFF</string>
+    <string name="tab_Indicator">#FFFFFF</string>
+
+    <!-- Barra de navegación -->
+    <string name="navigation_drawer_open">Abrir barra de navegación</string>
+    <string name="navigation_drawer_close">Cerrar barra de navegación</string>
+
+    <!-- Content description -->
+    <string name="content_app">Ícono de la aplicación.</string>
+    <string name="content_splash">Fondo de la splashscreen.</string>
+    <string name="content_dev">Logo del desarrollador.</string>
+    <string name="content_background">Fondo del navegador.</string>
+    <string name="content_password">Mostrar/Ocultar contraseña.</string>
+    <string name="content_escuelas">Logotipo de las escuelas del IPN.</string>
+
+    <!-- About activity -->
+    <string name="boton_Donacion">Donar vía PayPal</string>
+
+    <!-- Opciones de menú -->
+    <string name="action_settings">Cambiar escuela</string>
+    <string name="action_about_1">Enviar sugerencia</string>
+    <string name="action_horario_1">Guardar</string>
+    <string name="action_horario_2">Ver horario</string>
+    <string name="action_offline_horario_1">Editar</string>
+    <string name="action_offline_horario_2">Activar notificaciones</string>
+    <string name="action_offline_horario_3">Desactivar notificaciones</string>
+    <string name="action_updates">Actualizaciones</string>
+    <string name="action_config">Configuración</string>
+    <string name="action_captcha">Actualizar CAPTCHA</string>
+
+    <!-- Titulos de actividades -->
+    <string name="s_login">Iniciar sesión</string>
+    <string name="s_forgot">Olvide mi contraseña</string>
+    <string name="s_setdatos">SAES2GO</string>
+    <string name="s_escuela">Elige tu escuela</string>
+    <string name="s_about">Acerca de…</string>
+    <string name="s_horario_offline">Horario: sin conexión</string>
+    <string name="s_actualizaciones">Comprobar actualizaciones…</string>
+    <string name="s_navegador">Navegador (SAES)</string>
+    <string name="s_editar_horario">Editando horario</string>
+    <string name="s_change_style">Configuración</string>
+    <string name="s_modsaes">Navegador con \"MODS SAES\"</string>
+
+    <!-- LOGIN DE SAES -->
+    <string name="login_1">Número de boleta</string>
+    <string name="login_2">Contraseña</string>
+    <string name="login_3">¿Eres un robot? Escribe el captcha</string>
+    <string name="login_4">Captcha</string>
+    <string name="login_5">¿Recordar tu boleta y contraseña?</string>
+    <string name="login_6">Iniciar sesión</string>
+    <string name="login_7">Olvide mi contraseña</string>
+    <string name="error_campo_requerido">Este campo es requerido</string>
+
+    <!-- FORGOT PASSWORD -->
+    <string name="forgot_1">Enviar correo</string>
+
+    <!-- UPDATE ACTIVITY -->
+    <string name="update_1">Tu versión instalada:</string>
+    <string name="update_2">Nueva versión:</string>
+    <string name="update_3">Última actualización:</string>
+    <string name="update_4">Cambios recientes:</string>
+    <string name="update_5">¡Hurra!\nTienes la versión más reciente.</string>
+    <string name="update_6">¡Nueva versión de la aplicación disponible! Favor de actualizar vía Google Play.</string>
+
+    <!-- SETTINGS -->
+    <string name="setting_1">¿Recibir actualizaciones?</string>
+    <string name="setting_2">Selecciona el tema</string>
+    <string name="pref_1">Ajustes generales</string>
+
+    <!-- ALUMNO -->
+    <string name="alumno_1">Unidad académica:</string>
+    <string name="alumno_2">Nombre del alumno:</string>
+    <string name="alumno_3">Número de boleta:</string>
+    <string name="alumno_4">Carrera:</string>
+    <string name="alumno_5">Plan de estudios:</string>
+    <string name="alumno_6">Promedio general:</string>
+    <string name="alumno_7">…</string>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <string name="nav_default">N/D</string>
+    <string name="nav_1">Alumno</string>
+    <string name="nav_2">Horario</string>
+    <string name="nav_3">Kárdex</string>
+    <string name="nav_4">Estado general</string>
+    <string name="nav_5">Cita de reinscripción</string>
+    <string name="nav_6">Calif. del semestre</string>
+    <string name="nav_7">Calif. de ETS</string>
+    <string name="nav_8">Calif. de Saberes Previos</string>
+    <string name="nav_9">Opciones</string>
+    <string name="nav_10">Cambiar escuela</string>
+    <string name="nav_11">Cerrar sesión</string>
+    <string name="nav_12">Actualizar datos</string>
+    <string name="nav_13">Acerca de…</string>
+    <string name="nav_14">Actualizaciones…</string>
+    <string name="nav_15">Navegador</string>
+    <string name="nav_16">Configuración</string>
+    <string name="nav_17">Navegador con \"MODS SAES\"</string>
+
+    <!-- REINSCRIPCIÓN -->
+    <string name="reinscripcion_1">Inicio de reinscripción:</string>
+    <string name="reinscripcion_2">Fin de reinscripción:</string>
+    <string name="reinscripcion_3">Promedio general:</string>
+    <string name="reinscripcion_4">Materias reprobadas:</string>
+
+    <string name="reinscripcion_5">Créditos de la carrera:</string>
+    <string name="reinscripcion_6">Carga máxima:</string>
+    <string name="reinscripcion_7">Carga media:</string>
+    <string name="reinscripcion_8">Carga mínima:</string>
+    <string name="reinscripcion_9">Duración de la carrera:</string>
+    <string name="reinscripcion_10">Máximo de periodos escolares:</string>
+
+    <string name="reinscripcion_11">Créditos obtenidos:</string>
+    <string name="reinscripcion_12">Créditos faltantes:</string>
+    <string name="reinscripcion_13">Materias desfasadas:</string>
+    <string name="reinscripcion_14">Materias no cursadas:</string>
+    <string name="reinscripcion_15">Periodos escolares cursados:</string>
+    <string name="reinscripcion_16">Periodos disponibles:</string>
+    <string name="reinscripcion_default">…</string>
+
+    <!-- EDITAR HORARIO -->
+    <string name="editar_separador"> hasta las </string>
+    <string name="editar_hora_inicio">00:00</string>
+    <string name="editar_hora_termino">23:59</string>
+    <string name="editar_1">Selecciona la materia</string>
+    <string name="editar_2">Modifica el edificio</string>
+    <string name="editar_3">Modifica el salon</string>
+    <string name="editar_4">Modifica las horas</string>
+    <string name="editar_5">Lunes</string>
+    <string name="editar_6">Martes</string>
+    <string name="editar_7">Miércoles</string>
+    <string name="editar_0">Todos los días</string>
+
+
+    <!-- ABOUT -->
+    <string name="about_0">¿Qué es SAES2GO?</string>
+    <string name="about_1">Acerca de</string>
+    <string name="about_2">Funciones</string>
+    <string name="about_3">Por ahora, SAES2GO solo podrá mostrarte algunos datos de consulta, como
+        lo son:\n\n
+        \t- Calificaciones del semestre.\n
+        \t- Horario actual.\n
+        \t- Horario sin conexión.\n
+        \t- Editar el horario.\n
+        \t- Kárdex.\n
+        \t- Estado general.\n
+        \t- Calificaciones de ETS.\n
+        \t- Notificación de clase.\n
+        \t- Cita de Reinscripción.\n\nSi deseas hacer alguna otra operación, o crees que algo anda
+        mal, puedes intentar a \"Actualizar los datos\" o checar tu SAES en la opción \"Navegador\"
+        de esta app. Verás el SAES como si ingresaras desde una computadora.</string>
+    <string name="about_4">Sugerencias y recomendaciones</string>
+    <string name="about_5">Dudas</string>
+    <string name="about_6">Créditos y derechos de autor</string>
+    <string name="about_7">Gracias a (créditos)</string>
+    <string name="about_8">Aviso de privacidad</string>
+    <string name="about_9">El presente Aviso tiene por objeto la protección de tus datos personales,
+        así como informar que la Dirección de Administración Escolar (DAE) será el Responsable de tu
+        información personal (Datos Personales). Citando el texto incluído en la sección \"Datos
+        Personales\" del SAES de cualquier escuela que a la letra dice:\n\"La direccion de
+        Administración Escolar (DAE) le informa que los Datos Personales proporcionados por usted
+        son protegidos, incorporados y tratados en el \"Sistema de Administracion Escolar\" (SAES),
+        el cual fue registrado en el Listado de Sistemas de Datos Personales ante el Instituto
+        Federal de Acceso a la Información Pública (IFAI)
+        (<a href="http://www.ifai.org.mx/">www.ifai.org.mx</a>), con fundamento en los
+        Articulos 20 y 21 de la Ley Federal de Transparencia y Acceso a la Información Pública
+        Gubernamental (LFTAIPG), y demás disposiciones aplicables y podrán ser proporcionados a
+        dependencias del Instituto Politécnico Nacional y autoridades competentes, con la finalidad
+        de coadyuvar al ejercicio de las funciones propias de la Institución, además de otra
+        información prevista en la ley. La Unidad Administrativa Responsable del SAES es la DAE, en
+        la cual podrá ejercer los derechos de acceso y corrección. Sita en la \"Unidad Profesional
+        Adolfo López Mateos\", Av. Instituto Politécnico Nacional No. 1936, Col. Zacatenco, México,
+        D.F., CP. 07738. Lo anterior con base al décimo séptimo Lineamiento de Protección de Datos
+        Personales publicados en el Diario Oficial de la Federación
+        (D.O.F. 30 de septiembre de 2005)\".\n -<a href="https://www.dae.ipn.mx/privacidad.php">
+            https://www.dae.ipn.mx/privacidad.php</a>\n\nCon respecto a la aplicación, SAES2GO,
+        sólo recoje los datos de consulta para poder mostrarlas en la interfaz.
+        Este software informático no envia de manera remota, no almacena en un servidor web ni
+        envia al desarrollador de esta app algún dato obtenido del SAES por ningún motivo.\nPara
+        almacenar los datos, Android cuenta con la API \"SharedPreferences\", que tiene la
+        posibilidad de almacenar los datos, como lo son tu boleta y contraseña, en un directorio
+        local. Para guardar el horario, se utilizan bases de datos SQLite que de igual manera se
+        guarda en un directorio local. Ambos directorios son de acceso restringido. Sólo la app
+        tiene acceso a ellas, nadie más.
+    </string>
+    <string name="about_10">Información</string>
+    <string name="about_11">SAES2GO</string>
+    <string name="about_12">(Opcional)</string>
+
+    <!-- CIPHER -->
+    <string name="c1"></string>
+    <string name="c2"></string>
+    <string name="title_activity_ajustes">Ajustes</string>
+
+    <!-- CHANGE_STYLE_ACTIVITY -->
+    <string name="change_style_0">Color de la app</string>
+    <string name="change_style_1">¿No te gusta el color predeterminado? ¡No hay problema! Ya puedes
+    escoger tu color favorito.</string>
+    <string name="change_style_2">Elegir color</string>
+    <string name="change_style_3">Actualizaciones</string>
+    <string name="change_style_4">Quiero recibir notificaciones sobre futuras actualizaciones.</string>
+    <string name="change_style_5">Notificación de clase</string>
+    <string name="change_style_6">Quiero recibir notificaciones para conocer mi siguiente clase.</string>
+    <string name="change_style_7">Checar actualizaciones</string>
+    <string name="change_style_8">Acerca de…</string>
+    <string name="change_style_9">¿Quieres conocer más detalles de esta app?
+    Estaría encantado de que visites este apartado.</string>
+    <string name="change_style_10">¡Conocer más!</string>
+
+    <!-- Lista de colores -->
+    <string-array name="lista_colores">
+        <item>@color/color_0</item>
+        <item>@color/color_1</item>
+        <item>@color/color_2</item>
+        <item>@color/color_3</item>
+        <item>@color/color_4</item>
+        <item>@color/color_5</item>
+        <item>@color/color_6</item>
+        <item>@color/color_7</item>
+        <item>@color/color_8</item>
+        <item>@color/color_9</item>
+        <item>@color/color_10</item>
+        <item>@color/color_11</item>
+        <item>@color/color_12</item>
+        <item>@color/color_13</item>
+        <item>@color/color_14</item>
+    </string-array>
+
+    <string name="warning_1">SAES2MOD
+    </string>
+    <string name="warning_2">Si te vas a reinscribir, recomendamos hacerlo en una PC.
+        Si vas a hacerlo en tu smartphone, recomendamos una conexión constante a Internet
+        y jamás apretar el botón de \"Regresar\". :)
+    </string>
+    <string name="warning_3">Parece que el SAES de tu escuela tiene un certificado SSL inválido.
+        Por seguridad, esta versión de la app no puede funcionar con esta escuela. Puedes descargar
+        una versión fuera de la Google Play tocando el botón \"Descargar\" de aquí abajo.
+    </string>
+    <string name="cancelString">Cancelar</string>
+
+</resources>

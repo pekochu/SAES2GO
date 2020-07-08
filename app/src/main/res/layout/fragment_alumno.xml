@@ -1,0 +1,183 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_default"
+    tools:context="xyz.luisnglbrv.sigma.Alumno">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/alumno_1"
+                android:fontFamily="@font/google_sans_bold"
+                android:paddingTop="18dp"
+                android:paddingStart="18dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" />
+            <TextView
+                android:text="@string/alumno_7"
+                android:fontFamily="@font/google_sans_regular"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Escuela"
+                android:layout_below="@+id/textView"/>
+
+            <TextView
+                android:text="@string/alumno_2"
+                android:fontFamily="@font/google_sans_bold"
+                android:paddingTop="18dp"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_Escuela"
+                android:id="@+id/textView1" />
+            <TextView
+                android:text="@string/alumno_7"
+                android:fontFamily="@font/google_sans_regular"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Nombre"
+                android:layout_below="@+id/textView1"/>
+
+            <TextView
+                android:text="@string/alumno_3"
+                android:fontFamily="@font/google_sans_bold"
+                android:paddingTop="18dp"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_Nombre"
+                android:id="@+id/textView2" />
+            <TextView
+                android:text="@string/alumno_7"
+                android:fontFamily="@font/google_sans_regular"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Boleta"
+                android:layout_below="@+id/textView2"/>
+
+            <TextView
+                android:fontFamily="@font/google_sans_bold"
+                android:text="@string/alumno_4"
+                android:paddingTop="18dp"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_Boleta"
+                android:id="@+id/textView3" />
+            <TextView
+                android:text="@string/alumno_7"
+                android:fontFamily="@font/google_sans_regular"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Carrera"
+                android:layout_below="@+id/textView3"/>
+
+            <TextView
+                android:fontFamily="@font/google_sans_bold"
+                android:text="@string/alumno_5"
+                android:paddingTop="18dp"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_Carrera"
+                android:id="@+id/textView4" />
+            <TextView
+                android:text="@string/alumno_7"
+                android:fontFamily="@font/google_sans_regular"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Plan"
+                android:layout_below="@+id/textView4"/>
+
+            <TextView
+                android:fontFamily="@font/google_sans_bold"
+                android:text="@string/alumno_6"
+                android:paddingTop="18dp"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_Plan"
+                android:id="@+id/textView5" />
+            <TextView
+                android:text="@string/alumno_7"
+                android:fontFamily="@font/google_sans_regular"
+                android:paddingLeft="18dp"
+                android:paddingStart="18dp"
+                android:paddingRight="18dp"
+                android:paddingEnd="18dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_Promedio"
+                android:layout_below="@+id/textView5"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

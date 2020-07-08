@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/login_Coordinator"
+    android:background="@color/background_about"
+    tools:context="xyz.luisnglbrv.sigma.LoginSaes">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/loginSaes_AppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:fitsSystemWindows="true">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/loginSaes_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/loginSaes_AppBar"
+            android:layout_alignParentLeft="true">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/content_splash"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ipn" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#20000000" />
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginSaes_AppBar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/settings_vertical_margin"
+                android:paddingTop="@dimen/settings_vertical_margin">
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iconEscuela"
+                        android:layout_width="150dip"
+                        android:layout_height="150dip"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="@string/content_app"
+                        android:scaleType="fitXY"
+                        app:layout_collapseMode="parallax"
+                        app:layout_collapseParallaxMultiplier="0.3" />
+                </RelativeLayout>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/background_cards">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginTop="16dp"
+                        android:orientation="vertical">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/float_label_boleta"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/boleta_editText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:hint="@string/login_1"
+                                android:inputType="text"
+                                android:maxLength="18"
+                                android:maxLines="1"
+                                android:padding="10dp" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/float_label_contrasena"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:passwordToggleContentDescription="@string/content_password"
+                            app:passwordToggleEnabled="true">
+
+                            <EditText
+                                android:id="@+id/contrasena_editText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:hint="@string/login_2"
+                                android:inputType="textPassword"
+                                android:maxLength="12"
+                                android:maxLines="1"
+                                android:padding="10dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp">
+
+                            <WebView
+                                android:id="@+id/captcha_webView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:visibility="invisible" />
+                        </RelativeLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/float_label_captcha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/captcha_editText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:hint="@string/login_4"
+                                android:inputType="textCapCharacters"
+                                android:maxLines="1"
+                                android:padding="10dp" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <CheckBox
+                            android:id="@+id/recordar_checkBox"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/login_5" />
+
+                        <Button
+                            android:id="@+id/submit_boton"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/btn_style_1"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:text="@string/login_6"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/forgot_boton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="16dp"
+                            android:text="@string/login_7"
+                            android:background="@drawable/btn_style_1"
+                            android:fontFamily="@font/google_sans_regular"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            style="?android:attr/borderlessButtonStyle"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

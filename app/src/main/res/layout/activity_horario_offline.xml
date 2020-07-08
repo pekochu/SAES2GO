@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/offline_Coordinator"
+    android:fitsSystemWindows="true"
+    android:background="@color/background_default"
+    tools:context="xyz.luisnglbrv.sigma.HorarioOffline" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/horario_offline_AppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/horario_offline_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/horario_offline_tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbar"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:tabTextColor="@color/offline_tab_UnselectedText"
+                app:tabSelectedTextColor="@color/offline_tab_SelectedText"
+                app:tabIndicatorColor="@color/offline_tab_Indicator"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/horario_offline_ViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/horario_offline_AppBar"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

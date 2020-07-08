@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="12dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:id="@+id/horario_txtMateria"
+        android:fontFamily="@font/google_sans_medium"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:textSize="12sp"
+        android:paddingBottom="8dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="#000"
+        android:id="@+id/horario_txtProfe"
+        android:layout_below="@+id/horario_txtMateria"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:textSize="12sp"
+        android:paddingBottom="12dp"
+        android:paddingStart="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="#000"
+        android:id="@+id/horario_txtEdificio"
+        android:layout_below="@+id/horario_txtProfe"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:textSize="12sp"
+        android:paddingBottom="12dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/horario_txtSalon"
+        android:layout_below="@+id/horario_txtProfe"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/google_sans_regular"
+        android:textSize="12sp"
+        android:paddingBottom="12dp"
+        android:paddingRight="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/horario_txtHoras"
+        android:layout_alignBaseline="@+id/horario_txtSalon"
+        android:layout_alignBottom="@+id/horario_txtSalon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

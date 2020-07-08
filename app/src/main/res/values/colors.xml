@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Principal-->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#FF3D00</color>
+    <!-- About Activity Colors -->
+    <color name="aboutColorPrimary">#607D8B</color>
+    <color name="aboutColorPrimaryDark">#37474F</color>
+    <color name="aboutColorAccent">#009688</color>
+    <!-- Tablas -->
+    <color name="tab_UnselectedText">#B2DFDB</color> <!-- dcb1d1 -->
+    <color name="tab_SelectedText">#FFFFFF</color>
+    <color name="tab_Indicator">#FFFFFF</color>
+    <!-- Horario Offline -->
+    <color name="offline_tab_UnselectedText">#E0E0E0</color>
+    <color name="offline_tab_SelectedText">#FFFFFF</color>
+    <color name="offline_tab_Indicator">#FFFFFF</color>
+    <color name="offlineColorPrimary">#9E9E9E</color>
+    <color name="offlineColorPrimaryDark">#424242</color>
+    <color name="offlineColorAccent">#009688</color>
+    <!-- Splash Activity -->
+    <color name="notification_bar_splash">#757575</color>
+    <!-- Otros -->
+    <color name="background_default">#FAFAFA</color>
+    <color name="background_about">#E0E0E0</color>
+    <color name="background_cards">#EEEEEE</color>
+
+    <!-- CUSTOMs -->
+    <!-- GUINDA -->
+    <color name="color_0">#800000</color>
+    <color name="color_0_dark">#580000</color>
+    <color name="color_0_accent">#FF3D00</color>
+    <!-- TEAL -->
+    <color name="color_1">#009688</color>
+    <color name="color_1_dark">#00796B</color>
+    <color name="color_1_accent">#FF3D00</color>
+    <!-- ROSA -->
+    <color name="color_2">#E91E63</color>
+    <color name="color_2_dark">#C2185B</color>
+    <color name="color_2_accent">#18FFFF</color>
+    <!-- MORADO -->
+    <color name="color_3">#9C27B0</color>
+    <color name="color_3_dark">#7B1FA2</color>
+    <color name="color_3_accent">#1DE9B6</color>
+    <!-- DEEP PURPLE -->
+    <color name="color_4">#673AB7</color>
+    <color name="color_4_dark">#512DA8</color>
+    <color name="color_4_accent">#69F0AE</color>
+    <!-- INDIGO -->
+    <color name="color_5">#3F51B5</color>
+    <color name="color_5_dark">#303F9F</color>
+    <color name="color_5_accent">#FF5252</color>
+    <!-- LIGHT BLUE -->
+    <color name="color_6">#03A9F4</color>
+    <color name="color_6_dark">#0288D1</color>
+    <color name="color_6_accent">#FF5252</color>
+    <!-- CYAN -->
+    <color name="color_7">#00BCD4</color>
+    <color name="color_7_dark">#0097A7</color>
+    <color name="color_7_accent">#795548</color>
+    <!-- RED -->
+    <color name="color_8">#F44336</color>
+    <color name="color_8_dark">#D32F2F</color>
+    <color name="color_8_accent">#00E676</color>
+    <!-- GREEN -->
+    <color name="color_9">#4CAF50</color>
+    <color name="color_9_dark">#388E3C</color>
+    <color name="color_9_accent">#536DFE</color>
+    <!-- LIGHT GREEN X-->
+    <color name="color_10">#8BC34A</color>
+    <color name="color_10_dark">#689F38</color>
+    <color name="color_10_accent">#FFD740</color>
+    <!-- LIME -->
+    <color name="color_11">#CDDC39</color>
+    <color name="color_11_dark">#AFB42B</color>
+    <color name="color_11_accent">#00BFA5</color>
+    <!-- AMBER -->
+    <color name="color_12">#FFC107</color>
+    <color name="color_12_dark">#FFA000</color>
+    <color name="color_12_accent">#00B0FF</color>
+    <!-- ORANGE -->
+    <color name="color_13">#FF9800</color>
+    <color name="color_13_dark">#F57C00</color>
+    <color name="color_13_accent">#F8BBD0</color>
+    <!-- DEEP ORANGE -->
+    <color name="color_14">#FF5722</color>
+    <color name="color_14_dark">#E64A19</color>
+    <color name="color_14_accent">#EA80FC</color>
+</resources>

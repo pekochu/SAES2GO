@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/horario_offline_action_1"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_create_white_24dp"
+        android:title="@string/action_offline_horario_1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/horario_offline_action_2"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_notifications_white_24dp"
+        android:title="@string/action_offline_horario_2"
+        app:showAsAction="ifRoom" />
+</menu>
